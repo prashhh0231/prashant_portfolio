@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #0a0a0a;
+  --color-white-bg: #ffffff;
+  --color-primary: #f57b68;
+  --color-secondary:#f54545;
+  --color-orangeTxt:#ff3f18;
+  --color-accent: #3b82f6;
+  --color-accent-secondary: #8b5cf6;
+  --color-text-light: #ffffff;
+  --color-text-muted-light: #a1a1aa;
+  --color-text-dark: #0a0a0a;
+  --color-text-muted-dark: #52525b;
+  --color-badge-bg-dark: rgba(59, 130, 246, 0.1);
+  --color-badge-border-dark: rgba(59, 130, 246, 0.3);
+  --color-badge-bg-light: rgba(0, 0, 0, 0.05);
+  --color-badge-border-light: rgba(0, 0, 0, 0.1);
+  --font-family-outfit: 'Outfit', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  line-height: 1.6;
+}
