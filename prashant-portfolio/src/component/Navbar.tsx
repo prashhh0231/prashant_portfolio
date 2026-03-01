@@ -18,7 +18,7 @@ const Navbar = ({ navLinks }: NavbarProps) => {
             <div className="max-w-[1200px] mx-auto px-[5%] flex justify-between items-center h-[70px]">
 
                 <div className="text-2xl font-bold text-[#0a0a0a]">
-                    <span>&lt;</span>Prashant_Jawale<span> /&gt;</span>
+                    <span>&lt;</span>Prashant_<span className="text-primary">Jawale</span><span> /&gt;</span>
                 </div>
 
                 <ul

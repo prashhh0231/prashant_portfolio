@@ -9,6 +9,14 @@ import Navbar from "./component/Navbar";
 import type { NavLink, Experience, SkillCategory, Project, Stat, ContactInfo } from "./types";
 import { Check, Mail, MapPin, Phone } from "lucide-react";
 
+import marshallImg from './assets/mec.png';
+import ampaImg from './assets/ampa.png';
+import pimtImg from './assets/pimt.png';
+import recruitSmartlyImg from './assets/rs.png';
+import embarkzImg from './assets/embarkz.png';
+import rankqImg from './assets/rankq.png';
+
+
 function App() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -97,6 +105,7 @@ function App() {
             name: "Marshall e Campbell",
             domain: "E-commerce",
             emoji: "🚀",
+            image: marshallImg,
             description: [
                 "E-commerce mobile app enabling online purchases with voice search and barcode/QR scanning.",
                 "Developed reusable components and responsive screens.",
@@ -110,6 +119,7 @@ function App() {
             name: "Ampa",
             domain: "Health care",
             emoji: "📱",
+            image: ampaImg,
             description: [
                 "AMPA is a healthcare app for hospitals, allowing doctors to control treatment machines for depression patients and manage patient prescriptions, history, and session data efficiently.",
                 "Project creation and setup from scratch in react native.",
@@ -121,6 +131,7 @@ function App() {
             name: "PIMT (Parent In My Town)",
             domain: "Wellness",
             emoji: "🎨",
+            image: pimtImg,
             description: [
                 "Developed a React Native app using Typescript for a German client, enabling users to create and join city- and language-based groups for exploring and sharing tours.",
                 "Implemented group functionality where users can create, join, and participate in events, fostering a community-driven tour experience.",
@@ -132,6 +143,7 @@ function App() {
             name: "Recruit Smartly – AI Recruitment Platform",
             domain: "HR",
             emoji: "📊",
+            image: recruitSmartlyImg,
             description: [
                 // "Built a recruitment platform with Next.js from scratch.",
                 "Developed responsive UI with Next.js and Tailwind CSS.",
@@ -144,6 +156,7 @@ function App() {
             name: "Embarkz",
             domain: "Wellness",
             emoji: "💬",
+            image: embarkzImg,
             description: [
                 "Created and set up the wellness application from scratch, establishing the project's architecture.",
                 "Designed and implemented the user interface and user experience according to Figma designs.",
@@ -152,6 +165,19 @@ function App() {
             ],
             tags: ["React native", "Redux", "Tailwind CSS", "REST API"],
         },
+        {
+            name: "RankQ",
+            domain: "Digital Marketing",
+            emoji: "📊",
+            image: rankqImg,
+            description: [
+                "Developed a comprehensive SEO analytics web app to monitor website performance, keyword rankings, and competitor insights.",
+                "Integrated third-party SEO tools for website health, crawlability, backlink analysis, and technical audits.",
+                "Built real-time dashboards with metrics like domain authority, impressions, CTR, page speed, and on-page optimization.",
+                "Enhanced application performance and scalability through modular architecture and reusable components."
+            ],
+            tags: ["React.js", "Redux", "REST API", "Tailwind CSS", "React Query", "Chart.js"],
+        }
     ];
     const stats: Stat[] = [
         { number: "4+", label: "Years Experience" },

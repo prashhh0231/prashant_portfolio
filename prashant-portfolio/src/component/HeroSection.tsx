@@ -20,8 +20,7 @@ const HeroSection = () => {
                         - Frontend developer
                     </h1>
                     <p className="text-xl text-[#52525b] mb-8 max-w-[500px]">
-                        I craft beautiful, responsive, and user-friendly web experiences
-                        with modern technologies.
+                        Turning designs into seamless digital experiences across web and mobile.
                     </p>
 
                     <div className="flex gap-4 flex-wrap">
@@ -32,10 +31,11 @@ const HeroSection = () => {
                             View My Work
                         </a>
                         <a
-                            href="#contact"
+                            href="https://drive.google.com/file/d/1GFvYMqfh4jD4sXl7OsRQdoG7U3JPKeRF/view?usp=sharing"
+                            target="_blank"
                             className="px-7 py-3 rounded-lg font-semibold text-base no-underline transition-all duration-300 bg-transparent text-[#0a0a0a] border-2 border-[#0a0a0a] hover:bg-[#0a0a0a] hover:text-white"
                         >
-                            Contact Me
+                            Download CV
                         </a>
                     </div>
                 </div>

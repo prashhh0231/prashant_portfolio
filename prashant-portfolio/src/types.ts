@@ -44,6 +44,7 @@ export interface Project {
     name: string;
     domain: string;
     emoji: string;
+    image: string;
     description: string[];
     tags: string[];
 }

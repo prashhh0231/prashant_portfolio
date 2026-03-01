@@ -16,7 +16,7 @@ const ProjectsSection = ({ projects }: ProjectsSectionProps) => {
                             className="bg-white border border-black/[0.08] rounded-2xl overflow-hidden transition-all duration-300 hover:translate-y-[-8px] hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]"
                         >
                             <div className="h-[180px] bg-gradient-to-br from-[#f3f4f6] to-[#e5e7eb] flex items-center justify-center text-6xl">
-                                {project.emoji}
+                                <img src={project.image} alt={project.name} className="w-full h-full object-cover" />
                             </div>
 
                             <div className="p-6">
