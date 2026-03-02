@@ -172,7 +172,7 @@ function App() {
             image: rankqImg,
             description: [
                 "Developed a comprehensive SEO analytics web app to monitor website performance, keyword rankings, and competitor insights.",
-                "Integrated third-party SEO tools for website health, crawlability, backlink analysis, and technical audits.",
+                "Integrated external SEO api tools for website health, crawlability, backlink analysis, and technical audits.",
                 "Built real-time dashboards with metrics like domain authority, impressions, CTR, page speed, and on-page optimization.",
                 "Enhanced application performance and scalability through modular architecture and reusable components."
             ],
